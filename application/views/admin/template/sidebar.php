@@ -40,7 +40,7 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-saved"></span><a href="<?php echo site_url('cadmin/report');?>"> Report</a></span>
+                                        <span class="glyphicon glyphicon-saved"></span><a href="<?php echo site_url('CAdmin/report');?>"> Report</a></span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -55,7 +55,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a href="<?php echo site_url('cuser');?>"><span class="glyphicon glyphicon-off">
+                            <a href="<?php echo site_url('CUser');?>"><span class="glyphicon glyphicon-off">
                             </span> Logout</a>
                         </h4>
                     </div>

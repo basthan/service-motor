@@ -12,7 +12,7 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-saved"></span><a href="<?php echo site_url('dashboard');?>"> Trans</a></span>
+                                        <span class="glyphicon glyphicon-saved"></span><a href="<?php echo site_url('Dashboard');?>"> Trans</a></span>
                                     </td>
                                 </tr>
                                 
@@ -31,7 +31,7 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-saved"></span><a href="<?php echo site_url('transaksi/Riwayat');?>"> History Transaksi</a></span>
+                                        <span class="glyphicon glyphicon-saved"></span><a href="<?php echo site_url('Transaksi/Riwayat');?>"> History Transaksi</a></span>
                                     </td>
                                 </tr>
                             </table>
@@ -41,7 +41,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a href="<?php echo site_url('cuser');?>"><span class="glyphicon glyphicon-off">
+                            <a href="<?php echo site_url('CUser');?>"><span class="glyphicon glyphicon-off">
                             </span> Logout</a>
                         </h4>
                     </div>

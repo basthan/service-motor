@@ -20,7 +20,7 @@ class CUser extends CI_Controller {
 
 		if($test->num_rows()>0){
 			if($test->row()->role == 'kasir'){
-				redirect('dashboard');
+				redirect('Dashboard');
 			}else if($test->row()->role == 'manager'){
 				redirect('CAdmin');
 			}

@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "Cuser";
+$route['default_controller'] = "CUser";
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
