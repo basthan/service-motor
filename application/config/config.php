@@ -14,8 +14,9 @@
 | path to your installation.
 |
 */
-// $config['base_url']	= 'http://localhost/tubespromnet/';
-$config['base_url']	= 'http://localhost/tubespromnet/';
+// $config['base_url']	= 'http://localhost/tubespromnet/service-motor';
+// $config['base_url']	= 'http://service-motor.us-east-1.elasticbeanstalk.com/';
+$config['base_url']	= '';
 
 /*
 |--------------------------------------------------------------------------
@@ -45,7 +46,7 @@ $config['index_page'] = 'index.php';
 | 'ORIG_PATH_INFO'	Uses the ORIG_PATH_INFO
 |
 */
-$config['uri_protocol']	= 'AUTO';
+$config['uri_protocol']	= 'REQUEST_URI';
 
 /*
 |--------------------------------------------------------------------------

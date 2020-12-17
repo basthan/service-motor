@@ -38,8 +38,9 @@
 |
 */
 
-$route['default_controller'] = "cuser";
+$route['default_controller'] = "Cuser";
 $route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;
 
 
 /* End of file routes.php */
