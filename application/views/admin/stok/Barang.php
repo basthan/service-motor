@@ -1,4 +1,6 @@
-<legend>Tambah Barang</legend>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><legend>Tambah Barang</legend>
 <a href="<?php echo site_url('CBarang/tambahbarang');?>" class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i> Tambah</a>
 <table class="table table-striped">
     <thead>

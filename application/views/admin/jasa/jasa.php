@@ -1,5 +1,7 @@
-<legend>Tambah Jasa</legend>
-<a href="<?php echo site_url('Cjasa/tambahjasa');?>" class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i> Tambah</a>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><legend>Tambah Jasa</legend>
+<a href="<?php echo site_url('CJasa/tambahjasa');?>" class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i> Tambah</a>
 <table class="table table-striped">
     <thead>
         <tr>
@@ -14,7 +16,7 @@
         <td><?php echo $no++;?></td>
         <td><?php echo $row->nama_jasa;?></td>
         <td><?php echo $row->biaya;?></td>
-        <td><a href="<?php echo site_url('Cjasa/edit/'.$row->id_jasa);?>"><i class="glyphicon glyphicon-edit"></i></a></td>
+        <td><a href="<?php echo site_url('CJasa/edit/'.$row->id_jasa);?>"><i class="glyphicon glyphicon-edit"></i></a></td>
     </tr>
     <?php }?>
 </table>

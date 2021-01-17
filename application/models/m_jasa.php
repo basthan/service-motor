@@ -1,5 +1,5 @@
 <?php
-class m_jasa extends CI_Model{
+class M_jasa extends CI_Model{
     private $table="transaksi";
     
     

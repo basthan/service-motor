@@ -1,4 +1,6 @@
-    <table class="table table-striped">
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>    <table class="table table-striped">
         <thead>
             <tr>
                 <td>ID Jasa</td>

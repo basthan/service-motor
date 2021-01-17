@@ -1,4 +1,6 @@
-<div class="panel-group" id="accordion">
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><div class="panel-group" id="accordion">
                            
                 <div class="panel panel-default">
                     <div class="panel-heading">

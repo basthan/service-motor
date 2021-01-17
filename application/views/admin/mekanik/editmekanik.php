@@ -1,4 +1,6 @@
-<?php echo $message;?>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><?php echo $message;?>
 <?php echo validation_errors();?>
 <form class="form-horizontal" action="" method="post">
     <div class="form-group">
@@ -26,7 +28,7 @@
     <div class="form-group well">
         <div class="col-lg-5">
             <button id="simpan" class="btn btn-primary"><i class="glyphicon glyphicon-saved"></i> Simpan</button>
-            <a href="<?php echo site_url('Cmekanik/mekanik');?>" class="btn btn-default">Kembali</a>
+            <a href="<?php echo site_url('CMekanik/mekanik');?>" class="btn btn-default">Kembali</a>
         </div>
     </div>
 </form>

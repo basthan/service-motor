@@ -1,4 +1,6 @@
 <?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
 class CMekanik extends CI_Controller{
     
     function __construct(){
@@ -10,7 +12,7 @@ class CMekanik extends CI_Controller{
     function mekanik(){
         $data['title']="Data mekanik";
         $jumlah_data = $this->m_mekanik->jumlah_data();
-        $config['base_url'] = base_url().'index.php/Cmekanik/mekanik/';
+        $config['base_url'] = base_url().'index.php/CMekanik/mekanik/';
         $config['total_rows'] = $jumlah_data;
         $config['per_page'] = 5;
         $from = $this->uri->segment(3);
@@ -36,7 +38,7 @@ class CMekanik extends CI_Controller{
                     'alamat_mekanik'=>$this->input->post('alamat_mekanik')
                 );
                 $this->m_mekanik->simpanmekanik($info);
-                redirect('Cmekanik/mekanik/add_success');
+                redirect('CMekanik/mekanik/add_success');
         }else{
             $data['message']="";
             $this->template->displayAdmin('admin/mekanik/tambahmekanik',$data);

@@ -1,5 +1,5 @@
 <?php
-class m_user extends CI_Model{
+class M_user extends CI_Model{
        
     function cekUser($username,$password){
         $this->db->where("username",$username);

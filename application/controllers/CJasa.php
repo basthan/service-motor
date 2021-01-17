@@ -1,5 +1,7 @@
 <?php
-class Cjasa extends CI_Controller{
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class CJasa extends CI_Controller{
     
     function __construct(){
         parent::__construct();
@@ -35,7 +37,7 @@ class Cjasa extends CI_Controller{
                     'biaya'=>(int)$this->input->post('biaya')
                 );
                 $this->m_jasa->simpanjasa($info);
-                redirect('Cjasa/jasa/add_success');
+                redirect('CJasa/jasa/add_success');
         }else{
             $data['message']="";
             $this->template->displayAdmin('admin/jasa/tambahjasa',$data);

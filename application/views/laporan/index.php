@@ -1,4 +1,6 @@
-<hr>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><hr>
 <?php echo $message;?>
 <label>Riwayat Transaksi</label>
 <Table class="table table-striped">

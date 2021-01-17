@@ -1,4 +1,6 @@
-<?php echo $message;?>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><?php echo $message;?>
 <?php echo validation_errors();?>
 <form class="form-horizontal" action="" method="post">
     <div class="form-group">

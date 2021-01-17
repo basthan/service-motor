@@ -1,5 +1,5 @@
 <?php
-class m_barang extends CI_Model{    
+class M_barang extends CI_Model{    
     function cariBarang($kode){
         $this->db->where("id_barang",$kode);
         return $this->db->get("barang");

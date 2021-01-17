@@ -1,4 +1,6 @@
-<!doctype html>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><!doctype html>
     <html>
         <head>
             <title>Aplikasi Service & SparePart | <?php echo $title;?></title>

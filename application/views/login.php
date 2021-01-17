@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/signin.css">
-</head>
+    <meta charset="utf-8">
+    <title>Welcome to CodeIgniter</title>
+
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/signin.css">
 <body>
-	<form class="form-signin" method="post" action="<?php echo site_url('CUser/cek'); ?>">
+    <form class="form-signin" method="post" action="<?php echo site_url('CUser/cek'); ?>">
         <label for="inputEmail" class="sr-only">Username</label>
         <input type="text"  class="form-control" placeholder="Username" required autofocus name="username">
         <label for="inputPassword" class="sr-only">Password</label>
@@ -15,6 +18,5 @@
         <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
         <p class="mt-5 mb-3 text-muted center"> Service Motor&copy; 2018</p>
       </form>
-
 </body>
 </html>

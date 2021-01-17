@@ -1,4 +1,6 @@
-
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
     <div class="col-sm-3">
         <div class="panel panel-hash">
             <div class="panel-heading"><i class="fa fa-cart-arrow-down"></i> BARANG TERLARIS</div>

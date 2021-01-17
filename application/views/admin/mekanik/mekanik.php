@@ -1,5 +1,7 @@
-<legend>Tambah mekanik</legend>
-<a href="<?php echo site_url('Cmekanik/tambahmekanik');?>" class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i> Tambah</a>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><legend>Tambah mekanik</legend>
+<a href="<?php echo site_url('CMekanik/tambahmekanik');?>" class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i> Tambah</a>
 <table class="table table-striped">
     <thead>
         <tr>
@@ -16,7 +18,7 @@
         <td><?php echo $row->nama_mekanik;?></td>
         <td><?php echo $row->no_telepon_mekanik;?></td>
         <td><?php echo $row->alamat_mekanik;?></td>
-        <td><a href="<?php echo site_url('Cmekanik/edit/'.$row->id_mekanik);?>"><i class="glyphicon glyphicon-edit"></i></a></td>
+        <td><a href="<?php echo site_url('CMekanik/edit/'.$row->id_mekanik);?>"><i class="glyphicon glyphicon-edit"></i></a></td>
     </tr>
     <?php }?>
 </table>

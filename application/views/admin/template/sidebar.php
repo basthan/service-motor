@@ -1,4 +1,6 @@
-<div class="panel-group" id="accordion">
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><div class="panel-group" id="accordion">
                            
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -17,12 +19,12 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-saved"></span><a href="<?php echo site_url('Cjasa/jasa');?>">Jasa</a></span>
+                                        <span class="glyphicon glyphicon-saved"></span><a href="<?php echo site_url('CJasa/jasa');?>">Jasa</a></span>
                                     </td>
-                                </tr>
+                                </tr
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-saved"></span><a href="<?php echo site_url('Cmekanik/mekanik');?>">Mekanik</a></span>
+                                        <span class="glyphicon glyphicon-saved"></span><a href="<?php echo site_url('CMekanik/mekanik');?>">Mekanik</a></span>
                                     </td>
                                 </tr>
                             </table>

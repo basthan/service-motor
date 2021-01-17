@@ -1,4 +1,6 @@
-<?php echo $message;?>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><?php echo $message;?>
 <form class="form-horizontal" action="" method="post">
     <div class="form-group">
         <label class="col-lg-3 control-label">Nama Pelanggan</label>

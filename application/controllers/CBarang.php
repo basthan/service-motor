@@ -1,4 +1,6 @@
 <?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
 class CBarang extends CI_Controller{
     
     function __construct(){
