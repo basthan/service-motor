@@ -1,5 +1,5 @@
-# service-motor
- Tubes Promnet (CodeIgniter)
+# service-motor-CodeIgniter-PHP
+ Tubes Promnet
 
 1. Managed motocycle's items repository and mechanics.
 2. Managed transaction for customers.
